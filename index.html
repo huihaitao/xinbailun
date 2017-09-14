@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<link rel="stylesheet" href="css/index.css" />
+		
+	</head>
+	<body>
+		<div class="top">
+			<span>查找商店</span>
+			<a href="#">全场包邮！（默认顺丰）</a>		
+		</div>
+		<nav>
+			<!--------------->
+			<div id="boxa">
+				<img src="img/logo.png" alt="" />
+				<ul>
+					<li>男子</li>
+					<li>女子</li>
+				</ul>
+				
+			</div>
+			<div id="boxaa">
+				<a href="#"><i class="iconfont icon-baobao"></i></a>
+			</div>
+			<!---------------------->
+			<div id="boxb">
+				<input type="text" placeholder="搜索"/>
+				<i class="iconfont icon-fangdajing1"></i>
+			</div>
+			<div id="boxbb">
+				<img src="img/logo.png"/>
+			</div>
+			<!---------------------->
+			<div id="boxc">
+				<ul>
+					<li class="lisa">
+						<i class="iconfont icon-denglu"></i>
+						<a href="#">登录</a>&nbsp;
+					</li>
+					
+					<li id="lisb">
+						/&nbsp;<a href="#">注册</a>
+					</li>
+					<li class="lisb"><i class="iconfont icon-baobao"></i></li>
+					<li id="lisc"><a href="#">您的购物车是空的</a></li>
+				</ul>
+			</div>
+			<div id="boxcc">
+				<div id="boxcca">
+					<ul>
+						<li id="boxccb"><i class="iconfont icon-fangdajing1"></i></li>
+						<li><img src="img/menu.png"/></li>
+						
+					</ul>
+				</div>			
+			</div>
+		</nav>
+		<div id="sousuo">
+			<input type="text" placeholder="搜索"/>
+		</div>
+		
+		<div class="banner">
+			<div>
+				<img src="img/header1.jpg" alt="" />
+			</div>
+		</div>
+		<div class="lang">
+			<div class="langa">
+				<h1>发货公告</h1>
+			</div>
+		</div>
+		<div class="wenzi">
+			<div class="wenzi_a">
+				<div class="wenzi_b">
+					<i class="iconfont icon-ditu"></i>
+					<span>受地震影响，发往阿坝州九寨沟县、松潘县、绵阳市平武县的快件暂停揽收，阿坝州其他地区派送时效会有所影响;</span>
+				</div>
+				<div class="wenzi_b">
+					<i class="iconfont icon-ditu"></i>
+					<span>金砖会晤期间，8月10日-9月20日发往厦门快件派送时效将受影响。由此给您带来不便，敬请谅解。</span>
+				</div>
+			</div>
+		</div>
+		<div class="zhuanqu">
+			<div class="zhuanqu_a">
+				<div class="zhuanqu_b">
+					<div class="zhuanqu_c">
+						<h3>男子专区</h3>
+						<p>点击购买></p>
+					</div>
+				</div>
+			</div>
+			<div class="zhuanqu_aa">
+				<div class="zhuanqu_bb">
+					<div class="zhuanqu_c">
+						<h3>女子专区</h3>
+						<p>点击购买</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="photo">
+			<div class="photo_a"></div>
+		</div>
+	</body>
+</html>
+<script type="text/javascript" src="js/jquery-1.8.3.min.js" ></script>
+<script type="text/javascript">
+	$(function(){
+		$("#boxccb")[0].onclick=function(){
+			$("#sousuo").slideToggle(500);
+		}
+		
+	});
+	
+</script>
